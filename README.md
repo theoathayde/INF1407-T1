@@ -8,5 +8,10 @@ O jogo permite o usuário escolher entre dois personagens e entrar em uma sala, 
 
 # Relatório
 
-O jogo possui um login e uma sala de chat.Para entrar no jogo o usuário deve seguir o padrão de email Priplanus. Pode-se escolher um nickname e optar entre dois personagens através de um <select>. Para visualizar o personagem no login utilize o botão =>. Ao entrar na sala pode clicar no botão Start para mostrar o personagem ou usar as setas(direita/esquerda) para andar com o personagem. Existe um botão e uma caixa de input para mandar mensagens no chat.
-Requisitos Implementados: Identificação priplanus, Objeto imagem, Arrays, Tomada de decisão e Parâmetro configurável via select
+O jogo possui um login e uma sala de chat. Para entrar no jogo o usuário deve seguir o padrão de email Priplanus. Pode-se escolher um nickname e optar entre dois personagens através de um select. Para visualizar o personagem no login utilize o botão =>. Ao entrar na sala pode clicar no botão Start para mostrar o personagem ou usar as setas(direita/esquerda) para andar com o personagem. Existe um botão e uma caixa de input para mandar mensagens no chat.
+# Requisitos Implementados: 
+Identificação priplanus,
+Objeto imagem,
+Arrays,
+Tomada de decisão, 
+Parâmetro configurável via select
