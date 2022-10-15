@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    
+    <div id="center" style="display:block">
+        <div class="email">
+            <input id="email"> Email <br>
+        </div>
+        
+        <input id="nickname"> Nick <br>
+       
+        <div class="img">
+            <img src="images/personagemcolisao1.png" alt="" id="char">
+            
+            <button id="troca">=></button>
+            <select name="personagem" id="personagem"> 
+                <option value="1" selected>Char 1</option>
+                <option value="0">Char 2</option>
+            </select>
+        </div>
+
+        <button id="confirma"> OK </button>
+    </div>
+
+
+    <div id="segunda" style="display:none">
+        <canvas id="canvas1">
+        
+        </canvas>
+
+        <button id="start">Start</button>
+
+        <div class="send">
+            <input id="mensagem">
+            <button id="envia">Enviar</button>
+        </div>
+        
+        <div class="chat">
+            <p id="texto"></p>
+        </div>
+    </div>
+   
+
+    <script src="Javascript/main.js"></script>
+</body>
+</html>
